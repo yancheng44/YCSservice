@@ -1,0 +1,112 @@
+https://uat-ycsprepaid.sdxpass.com/sdxcservices/services/NaradaApiService?wsdl
+
+2017-12-18 10:19:16,049[INFO][35]Log SalesOrderRequest:
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<RequestXml>
+    <TxnRefNo>20171218101915</TxnRefNo>
+    <ClientId>000000088464</ClientId>
+    <BranchId>QWG540AZ</BranchId>
+    <ProductCode>LVNPRD</ProductCode>
+    <OrderNumber>YCS0066984</OrderNumber>
+    <TotalAmount>500</TotalAmount>
+    <OrderDetails>
+        <FaceValue>500</FaceValue>
+        <Quantity>1</Quantity>
+        <Currency>CNY</Currency>
+        <TotalAmount>500</TotalAmount>
+        <CardType>No</CardType>
+    </OrderDetails>
+</RequestXml>
+
+
+
+
+2017-12-18 10:21:15,452[INFO][35]Log PayMentRequest:
+
+<RequestXml>
+   <TxnRefNo>20171218102115</TxnRefNo>
+   <PrefundingAcctNo>12345678</PrefundingAcctNo>
+   <Currency>CNY</Currency>
+   <Amount>17000</Amount>
+   <ClientId>000000088464</ClientId>
+   <OrderNumber>YCS0066983</OrderNumber>
+   <PaymentDate>18/12/2017</PaymentDate>
+</RequestXml>
+
+
+
+
+017-12-18 11:11:06,569[INFO][37]Log ClientRequest:
+<?xml version="1.0" encoding="utf-8"?>
+<RequestXml>
+     <TxnRefNo>20171218111106</TxnRefNo>
+     <ChnCorpName></ChnCorpName>
+     <EngCorpName></EngCorpName>
+     <CorpName></CorpName>
+     <StreetName></StreetName>
+     <City></City>
+     <Country></Country>
+     <PostalCode></PostalCode>
+     <CorporateId>ATV216FB</CorporateId>
+     <CrmId></CrmId>
+     <CorporateLoginId></CorporateLoginId>
+     <EnterpriseId></EnterpriseId>
+     <TaxNumber></TaxNumber>
+     <PrintName></PrintName>
+     <Optional1></Optional1>
+     <Optional2></Optional2>
+     <Optional3></Optional3>
+     <CorporateContact>
+        <ContactPerson></ContactPerson>
+        <MailAddress></MailAddress>
+        <OfficePhone></OfficePhone>
+        <ResidentPhone></ResidentPhone>
+        <Mobile></Mobile>
+        <Fax></Fax>
+        <Suburb></Suburb>
+        <City></City>
+        <State></State>
+        <EmailId></EmailId>
+        <PostalCode></PostalCode>
+     </CorporateContact>
+     <Corporate>
+        <Branch>
+             <BranchName>上海学府餐饮管理服务有限公司</BranchName>
+             <BranchCode>000000099545</BranchCode>
+             <BranchLoginId></BranchLoginId>
+             <BranchContact>
+                 <ContactPerson></ContactPerson>
+                 <MailAddress>四川北路1761号1幢底层虹口</MailAddress>
+                 <OfficePhone></OfficePhone>
+                 <ResidentPhone></ResidentPhone>
+                 <Mobile>62096001</Mobile>
+                 <Fax></Fax>
+                 <Suburb>shanghai</Suburb>
+                 <City>shanghai</City>
+                 <State>shanghai</State>
+                 <Country>china</Country>
+                 <EmailId></EmailId>
+                 <PostalCode>200217</PostalCode>
+             </BranchContact>
+        </Branch>
+        </Corporate>
+     <LoadDetails>
+          <ProductAssigned></ProductAssigned>
+          <InvoiceLevel></InvoiceLevel>
+          <PrefundingPrdCode></PrefundingPrdCode>
+          <TypeOfClient></TypeOfClient>
+     </LoadDetails>
+</RequestXml>
+2017-12-18 11:11:08,425[INFO][37]Log ClientReponse:
+00/Transaction Success/
+<ResponseXml>
+      <TxnRefNo>20171218111106</TxnRefNo>
+      <CorporateId>ATV216FB</CorporateId>
+      <BranchCode>000000099545</BranchCode>
+      <BranchLoginId>VYQ247HR</BranchLoginId>
+</ResponseXml>
+
+
